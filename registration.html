@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: rgb(89, 61, 115);
+
+    }
+
+    .wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+    }
+
+    form {
+        background-color: rgb(197, 177, 213);
+        width: 300px;
+
+
+    }
+    #btn{
+        background-color: green;
+        color: white;
+    }
+
+    h2 {
+        font-size: 15px;
+        color: rgb(1, 1, 1);
+    }
+
+    h1 {
+        color: white;
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <center>
+            <h1>Registration Form</h1>
+        </center>
+        <form border="2px">
+
+            <table>
+
+                <center>
+
+                    <h2>
+                        <b>Full Name :</b>
+                    </h2>
+                    <label type="text">First Name : </label>
+                    <input type="text" name="name">
+                    <br><br>
+
+                    <label type="text">Last Name :</label>
+                    <input type="text" name="name">
+                    <br><br>
+
+                    <button type="submit" id="btn">Next</button>
+                    <br><br>
+                </center>
+            </table>
+        </form>
+        <form border="2px">
+            <table>
+                <center>
+                    <h2>
+                        <b>Address :</b>
+                    </h2>
+                    <label type="text">Street Address : </label>
+                    <input type="text" name="name">
+                    <br><br>
+
+                    <label type="text">Address Line2 :</label>
+                    <input type="text" name="name">
+                    <br><br>
+
+                    <input type="text" name="name" placeholder="City">
+                    <br><br>
+
+
+                    <input type="text" name="name" placeholder="Postal/Zip Code">
+                    <br><br>
+
+                    <label type="text">Country :</label>
+                    <select id="country" value="country">
+                        <option value="">Please Select</option>
+                        <option value="valsad">valsad</option>
+                        <option value="navsari">navsari</option>
+                        <option value="surat">Surat</option>
+                        <option value="bardoli">bardoli</option>
+                    </select>
+                    <br><br>
+
+                    <button type="submit" id="btn">Next</button>
+                    <br><br>
+                </center>
+            </table>
+        </form>
+        <form border="2px">
+
+            <table>
+
+                <center>
+
+                    <h2>
+                        <b>Phone Number :</b>
+                    </h2>
+                    <input type="number" name="code" placeholder="Area Code">
+                    <br><br>
+
+                    <input type="text" name="name" placeholder="Phone Number">
+                    <br><br>
+
+                    <button type="submit" id="btn">Submit</button>
+                    <br><br>
+                </center>
+            </table>
+        </form>
+    </div>
+
+</body>
+
+</html>

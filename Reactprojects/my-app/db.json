@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "title": "samsung",
+      "price": "5133",
+      "description": "very smart",
+      "image": "1.jpg",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "nokia",
+      "price": "70000",
+      "description": "very good",
+      "image": "2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "motorola",
+      "price": "450000",
+      "description": "good",
+      "image": "3.jpg"
+    },
+    {
+      "title": "Panasonic",
+      "price": "80000",
+      "description": "best",
+      "image": "4.jpg",
+      "id": 4
+    },
+    {
+      "title": "sony",
+      "price": "400000",
+      "description": "very nice",
+      "image": "5.jpg",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": 123,
+      "role_id": 1,
+      "id": 1
+    },
+    {
+      "name": "het",
+      "email": "het@gmail.com",
+      "password": "het",
+      "role_id": 2,
+      "id": 2
+    },
+    {
+      "name": "amisha",
+      "email": "amisha@gmail.com",
+      "password": "amisha",
+      "role_id": 2,
+      "id": 3
+    },
+    {
+      "name": "dhruvi",
+      "email": "dhruvi@gmail.com",
+      "password": "dhruvi",
+      "role_id": 2,
+      "id": 4
+    }
+  ],
+  "posts": [],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

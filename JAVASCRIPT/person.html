@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <center>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Email</td>
+                        </tr>
+                    </thead>
+                    <tbody id="data">
+
+                    </tbody>
+                </table>
+            </center>
+            <script>
+                const person =[
+                    {'name':'dhruvi','email':'dhruvi@gmail.com'},
+                    {'name':'dharmii','email':'dharmii@gmail.com'},
+                    {'name':'amisha','email':'amisha@gmail.com'},
+                    {'name':'het','email':'het@gmail.com'},
+
+                ]
+
+                // var tbody=document.getElementById("data")
+                // person.map((item)=>{
+                //     tbody.insertAdjacentHTML('beforend',`<tr><td>${item.name}</td></tr>`)
+                // })
+
+                var html="";
+                person.map((item)=>{
+                    html+=`<tr><td>${item.name}</td><td>${item.email}</td></tr>`
+                })
+                document.getElementById('data').innerHTML=html
+            </script>
+        </body>
+    </head>
+</html>

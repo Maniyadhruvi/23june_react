@@ -1,0 +1,35 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "samsung",
+      "author": "typicode"
+    },
+    {
+      "id": 1,
+      "title": "nokia",
+      "author": "typicode"
+    },
+    {
+      "id": 1,
+      "title": "motorola",
+      "author": "typicode"
+    },
+    {
+      "id": 1,
+      "title": "Panasonic",
+      "author": "typicode"
+    }
+  ],
+  "posts": [],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

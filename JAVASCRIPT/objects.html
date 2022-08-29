@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <center>
+        <form action="get">
+            <input type="text" id="save">
+            <button id="save">Click</button>
+        </form>
+        <p id="details"></p>
+    </center>
+</body>
+
+</html>
+<script>
+    document.getElementById("save").addEventListener("click", function (event) {
+        event.preventDefault()
+        var name = document.getElementById('name').value
+        document.getElementById('details').textContent = name
+        console.log(name)
+    });
+</script>

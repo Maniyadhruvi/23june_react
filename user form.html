@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        background-image: url(img1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 110vh;
+    }
+
+    .wrapper {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+    }
+    legend{
+        color: rgb(0, 0, 0);
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    table {
+        background-color: rgb(163, 137, 187);
+        border-radius: 10px;
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <form>
+            <fieldset>
+                <legend><b>User Form</b></legend>
+                <br><br>
+                <center>
+                    <table align="center" cellpadding="20" cellspacing="20">
+
+                        <label type="name" value=""><b>Name :</b>&nbsp;&nbsp;</label>
+                        <input type="text" size="37" placeholder="Enter your Name" required>
+                        <br><br><br>
+
+                        <label type="name" value=""><b>Email :</b>&nbsp;&nbsp;</label>
+                        <input type="text" size="37" placeholder="Enter your email">
+                        <br><br><br>
+
+                        <label type="number" value=""><b>Contact No :</b>&nbsp;&nbsp;</label>
+                        <input type="tel" name="phone" size="37" placeholder="">
+                        <br><br><br>
+
+                        <label type="password" value=""><b>password :</b>&nbsp;&nbsp;</label>
+                        <input type="password" size="37" placeholder="Enter your password">
+                        <br><br><br>
+
+                        <label type="text" value=""><b>Gender :</b>&nbsp;&nbsp;</label>
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female
+                        <br><br><br>
+
+                        <label type="text" value=""><b>Hobbies :</b>&nbsp;&nbsp;</label>
+                        <input type="checkbox" name=""><b>Swimming</b>
+                        <input type="checkbox" name=""><b>Reading</b>
+                        <input type="checkbox" name=""><b>Dancing</b>
+                        <br><br><br>
+
+                        <label type="state"><b>State :</b>&nbsp;&nbsp;</label>
+                        <select id="state" name="state">
+                            <option value="surat">Surat</option>
+                            <option value="bardoli">bardoli</option>
+                            <option value="valsad">valsad</option>
+                            <option value="navsari">navsari</option>
+                        </select>
+                        <br><br><br>
+
+                        <label type="text"><b>Address :</b>&nbsp;&nbsp;</label>
+                        <textarea name="address" cols="25" rows="5"></textarea>
+                        <br><br><br>
+
+                        <button type="submit" id="btn">Submit</button>
+
+                    </table>
+                </center>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

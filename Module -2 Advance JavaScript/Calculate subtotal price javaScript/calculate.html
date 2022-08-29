@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="javascript.js"></script>
+<style>
+
+table{
+    background-color: rgb(130, 176, 160);
+    color: rgb(31, 59, 50);
+}
+h1{
+    font-style: italic;
+    font-size: 36px;
+    color: rgb(9, 35, 27);
+
+}
+</style>
+<body>
+   <center><br><br>
+    <h1>Calculate subtotal price of quantity</h1><br>
+    <form action="post">
+       <table id="myTable" border="1">
+            <thead>
+                <tr>
+                    <td><b>Product Info</b></td>
+                    <td><b>Quantity</b></td>
+                    <td><b>Price(per unit)</b></td>
+                    <td><b>Iteam(total)</b></td>
+                    
+                </tr>
+                <tbody>
+                    <tr>
+                        <td><img src="1.png" height="80" width="90">
+                        <br><b>fortunata window hardware-Decorative </b>
+                        <br><b>holdbacks-Mocha</b></td>
+                        <td><input type="text" name="qty" value="3"></td>
+                        <td><input type="text" name="price" value="200"></td>
+                        <td><input type="text" name="itemtotal" value="200"></td>
+                        <td><button name="remove" class="btn btn-danger btn-sm ">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td><img src="2.avif" height="80" width="90">
+                        <br><b>Woven trellis window hardware-clip</b>
+                        <br><b>Rings-Bronze</b></td>
+                        <td><input type="text" name="qty" value="3"></td>
+                        <td><input type="text" name="price" value="250"></td>
+                        <td><input type="text" name="itemtotal" jAutoCalc="{qty} * {price}"  value="200"></td>
+                        <td><button name="remove" class="btn btn-danger btn-sm ">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td><img src="3.png" height="80" width="90">
+                        <br><b>Tie Curtain Clip-on Tie Drape </b>
+                        <br><b>Holdback Tieback Kurtina</b></td>
+                        <td><input type="text" name="qty" value="3"></td>
+                        <td><input type="text" name="price" value="350"></td>
+                        <td><input type="text" name="itemtotal" jAutoCalc="{qty} * {price}"  value="200"></td>
+                        <td><button type="remove" class="btn btn-danger btn-sm ">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><b>SubTotal</b></td>
+                        <td></td>
+                        <td><input type="text" name="subtotal"></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </thead>
+            
+       </table>
+    </form>
+   </center>
+</body>
+</html>

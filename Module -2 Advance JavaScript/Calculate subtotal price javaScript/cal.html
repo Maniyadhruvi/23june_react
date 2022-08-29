@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <center>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <td>product</td>
+                            <td>quantity</td>
+                            <td>price</td>
+                            <td>total</td>
+                            <td>subtotal</td>
+                        </tr>
+                    </thead>
+                    <tbody id="data">
+
+                    </tbody>
+                </table>
+            </center>
+            <style>
+                table{
+                    color: rgb(6, 31, 21);
+                    background-color: rgb(147, 183, 162);
+                }
+            </style>
+            <script>
+                const person =[
+                    {'product':'fortunata window ','quantity':'2','price':'300','total':'300*2','subtotal':'600'},
+                    {'product':'window hardware-clip','quantity':'3','price':'100','total':'100*3','subtotal':'300'},
+                    {'product':'Clip-on Tie Drape','quantity':'4','price':'200','total':'200*4','subtotal':'800'},
+                
+
+                ]
+
+                var html="";
+                person.map((item)=>{
+                    html+=`<tr><td>${item.product}</td><td>${item.quantity}</td><td>${item.price}</td><td>${item.total}</td><td>${item.subtotal}</td></tr>`
+                })
+                document.getElementById('data').innerHTML=html
+            </script>
+        </body>
+    </head>
+</html>

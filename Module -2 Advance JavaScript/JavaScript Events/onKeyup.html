@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <h1 id="name"></h1>
+        <input type="text" value="" id="color" onkeyup="change(this.value)">
+    </center>
+</body>
+
+</html>
+<script>
+    function change(color) {
+        // var color = document.getElementById('color').value;
+        document.getElementById('name').innerHTML = color
+        document.getElementById('name').style.cssText = "color:purple"
+        document.body.style.backgroundColor = color;
+    }
+</script>
