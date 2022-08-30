@@ -1,0 +1,25 @@
+• What is Redux?
+  The Redux Toolkit package is intended to be the standard way to write Redux logic.
+
+• What is Redux Thunk used for?
+  Redux Thunk is a middleware that lets you call action creators that return a function 
+  instead of an action object. 
+
+• What is Pure Component? When to use Pure Component over Component?
+  A React component is considered pure if it renders the same output for the same state and props.
+
+  It is the type of component which re-renders only when the props passed to it changes and not even 
+  if its parent component re-renders or if the shouldComponentUpdate()method is called. 
+
+• What is the second argument that can optionally be passed tosetState and what is its purpose?
+  The second argument that can optionally be passed to setState is a callback function which gets 
+  called immediately after the setState is completed and the components get re-rendered.
+
+• Create a Table and Search data from table using React Js ?
+	How to: React Table with Search
+	const [search, setSearch] = React. useState('');
+	const handleSearch = (event) => {
+	setSearch(event. target. value);
+	};
+	...
+	};
